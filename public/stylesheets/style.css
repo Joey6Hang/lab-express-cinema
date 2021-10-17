@@ -6,3 +6,50 @@ body {
 a {
   color: #00B7FF;
 }
+
+.content {
+  position: relative;
+  display: inline-block;
+}
+
+#textcinema {
+  position: absolute;
+  top: 8px;
+  right: 65px;
+  align-items: center;
+  float: right;
+  font-size: 67px;
+  color: antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+#btn {
+  position: absolute;
+  float: right;
+  font-size: 18px;
+  top: 275px;
+  right: 157px;
+  color: rgb(55, 187, 143);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 48%;
+  padding: 18px;
+  background-color: antiquewhite;
+  text-decoration: none;
+}
+
+a :hover {
+  background-color: chocolate;
+  color: goldenrod;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  margin: 40px;
+}
